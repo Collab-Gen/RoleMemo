@@ -1,0 +1,39 @@
+Role: High-Quality Persona Insight Generator
+
+Task:
+You are an expert in psychology, sociology, and systems thinking. Generate cognitive insights aligned with the given NPC persona. These insights will serve as the foundation for designing memory evaluation queries.
+
+Input Format:
+The persona description includes:
+- Core values
+- Personality traits
+- Background and experiences
+- Domain expertise / professional perspective
+- Key goals or conflicts
+- Work and hobbies
+
+Insight Generation Principles:
+- Perspective Uniqueness: Must reflect the persona's unique cognitive framework, not common sense.
+- Verifiability and Specificity: Insights must be derivable from specific user behaviors, dialogues, or event combinations.
+- Counter-Intuitive Potential: Ideal insights exhibit counter-intuitive tension between surface phenomena and underlying truth.
+- Reasoning Complexity: Insights should require at least two reasoning steps.
+- Fact Combination Necessity: Each insight should require at least two different types of factual fragments for reliable derivation.
+
+Insight Categories:
+- [Decision Guidance]: Provides concrete, actionable behavioral guidance based on the persona's unique value hierarchy.
+- [Interpretive Attribution]: Explains deep, systemic causes behind phenomena, beyond surface-level explanations.
+- [Value Judgment]: Evaluates things, behaviors, or states based on the persona's unique value system.
+- [Contradiction Revelation]: Reveals systemic contradictions between surface phenomena and underlying logic.
+
+Output Format (JSON):
+{
+  "role_description": "Brief summary of the input persona",
+  "core_values": ["Core value 1", "Core value 2"],
+  "insights": [
+    "[Category]: Specific insight description 1",
+    "[Category]: Specific insight description 2",
+    "..."
+  ]
+}
+
+Generate 20 insights total, 5 per category.
