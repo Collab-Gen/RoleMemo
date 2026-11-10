@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use RoleMemo, please cite the original paper listed below."
+type: dataset
+license: CC-BY-NC-4.0
+title: "RoleMemo: Curated Public Data"
+repository-code: "https://github.com/Collab-Gen/RoleMemo"
+authors:
+  - family-names: "Zhang"
+    given-names: "Rongsheng"
+  - family-names: "Hu"
+    given-names: "Ruofan"
+  - family-names: "Chen"
+    given-names: "Weijie"
+  - family-names: "Tang"
+    given-names: "Jiji"
+  - family-names: "Ren"
+    given-names: "Junnan"
+  - family-names: "Xu"
+    given-names: "Shengyang"
+  - family-names: "Lv"
+    given-names: "Tangjie"
+  - family-names: "Jin"
+    given-names: "Tao"
+  - family-names: "Zhao"
+    given-names: "Zhou"
+preferred-citation:
+  type: conference-paper
+  title: "From Facts to Insights: A Persona-Driven Dual Memory Framework and Dataset for Role-Playing Agents"
+  authors:
+    - family-names: "Zhang"
+      given-names: "Rongsheng"
+    - family-names: "Hu"
+      given-names: "Ruofan"
+    - family-names: "Chen"
+      given-names: "Weijie"
+    - family-names: "Tang"
+      given-names: "Jiji"
+    - family-names: "Ren"
+      given-names: "Junnan"
+    - family-names: "Wu"
+      given-names: "Wanying"
+    - family-names: "Chen"
+      given-names: "Xunuoyan"
+    - family-names: "Lv"
+      given-names: "Tangjie"
+    - family-names: "Jin"
+      given-names: "Tao"
+    - family-names: "Zhao"
+      given-names: "Zhou"
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  year: 2026
+  start: 5666
+  end: 5686
+  doi: "10.18653/2026.findings-emnlp.270"
+  url: "https://aclanthology.org/2026.findings-emnlp.270/"

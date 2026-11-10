@@ -1,6 +1,8 @@
 # From Facts to Insights: A Persona-Driven Dual Memory Framework and Dataset for Role-Playing Agents
 
 
+The extended journal manuscript is titled **Persona-Conditioned Memory Construction for Long-Term Role-Playing Agents**.
+
 ## Overview
 
 Role-playing agents excel in short conversations, but long-term interactions overwhelm context windows. Existing memory frameworks address this with **persona-agnostic summarization** — recording facts as neutral observations — which forces the agent to reinterpret everything at inference time from diluted retrieved context, resulting in generic, out-of-character responses.
@@ -22,6 +24,16 @@ Evaluations on RoleMemo show that persona-agnostic frameworks — regardless of 
 - **Role-Playing Quality:** Evaluated across four in-character dimensions (information richness, logical quality, character consistency, conversational attractiveness), DualMem-RL achieves the highest scores — with a 4B model surpassing zero-shot frameworks driven by 685B-parameter models.
 
 Full numerical results are reported in the paper (Table 1 and Table 2).
+
+---
+
+## Dataset
+
+The curated public RoleMemo snapshot contains **1,746 reasoning queries**, **151 NPC personas with 151 paired user personas**, and **151 dialogue histories** across 23 domains. It covers Decision Guidance, Value Judgment, Interpretive Attribution, and Contradiction Revelation.
+
+**[Download the curated dataset ZIP](data/RoleMemo-curated-data-2026-11-10.zip)**, then extract it. The archive contains the original JSON files, exact schemas, a loading example, citation metadata, and checksums. See [data/README.md](data/README.md) for download and loading instructions and [data/SCHEMA.md](data/SCHEMA.md) for the schema.
+
+The curated dataset files are licensed under [CC BY-NC 4.0](DATA_LICENSE). This license applies only to the `data/benchmark/` files inside the archive; code and other repository materials retain their own licensing terms.
 
 ---
 
@@ -168,7 +180,7 @@ This is an initial release focused on reproducibility of the core paper results.
 | RL training script (VeRL/GRPO) | ✅ Released |
 | RL reward function (`persona_judge.py`) | ✅ Released |
 | Memory manager (`memory_manager.py`) | ✅ Released |
-| RoleMemo dataset | 🔜 Coming soon |
+| RoleMemo dataset | ✅ [Released curated public snapshot](data/README.md) |
 | DualMem-SFT model checkpoint | 🔜 Coming soon |
 | DualMem-RL model checkpoint | 🔜 Coming soon |
 | Full RL agent implementation (recurrent memory module) | 🔜 Coming soon |
